@@ -10,6 +10,5 @@
         android:layout_height="748dp"
         android:layout_gravity="center"
         android:src="@drawable/redi" />
-<!--    ттт -->
 
 </LinearLayout>
