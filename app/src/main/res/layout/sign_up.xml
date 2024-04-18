@@ -55,7 +55,7 @@
                 android:layout_marginLeft="23dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/editTextText"
+                    android:id="@+id/editText1"
                     android:layout_width="335dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -80,7 +80,7 @@
                 android:layout_marginLeft="23dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/editTextPhone"
+                    android:id="@+id/editText2"
                     android:layout_width="337dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -108,7 +108,7 @@
                 android:layout_marginLeft="23dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/editText3"
                     android:layout_width="337dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -135,7 +135,7 @@
                 app:endIconMode="password_toggle">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/editTextTextPassword2"
+                    android:id="@+id/editText4"
                     android:layout_width="339dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -160,7 +160,7 @@
                 app:endIconMode="password_toggle">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/editTextTextPassword3"
+                    android:id="@+id/editText5"
                     android:layout_width="339dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
