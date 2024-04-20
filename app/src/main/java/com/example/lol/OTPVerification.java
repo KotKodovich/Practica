@@ -1,9 +1,7 @@
 package com.example.lol;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -12,9 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -114,6 +110,7 @@ public class OTPVerification extends AppCompatActivity {
                     // Переход к экрану установки нового пароля
                     Intent intent = new Intent(OTPVerification.this, NewPassword.class);
                     startActivity(intent);
+
                 }
             }
         });

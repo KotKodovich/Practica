@@ -12,9 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lol"
         tools:targetApi="31">
-        <activity
-            android:name=".NewPassword"
-            android:exported="false" />
+        <activity android:name=".NewPassword" />
+
         <activity
             android:name=".OTPVerification"
             android:exported="false" />
@@ -30,9 +29,6 @@
         <activity
             android:name=".SignUp"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity4"
-            android:exported="false" /> <!-- MainActivity3 объявлена как не экспортируемая, что означает, что она не может быть запущена извне приложения. -->
         <activity
             android:name=".MainActivity3"
             android:exported="false" /> <!-- MainActivity2 также объявлена как не экспортируемая. -->
