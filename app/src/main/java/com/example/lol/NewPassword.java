@@ -7,14 +7,7 @@ import android.text.TextWatcher;
 import android.widget.Button;
 import android.widget.EditText;
 import android.content.Intent;
-
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.widget.Button;
-import android.widget.EditText;
-import android.content.Intent;
+import android.graphics.Color; // Добавлено для использования Color.parseColor
 
 public class NewPassword extends AppCompatActivity {
 
@@ -63,9 +56,13 @@ public class NewPassword extends AppCompatActivity {
         // Проверка, что оба поля не пусты
         if (!editText1Input.isEmpty() && !editText2Input.isEmpty()) {
             buttonLogIn.setEnabled(true); // Активация кнопки
+            buttonLogIn.setBackgroundColor(Color.parseColor("#0000FF")); // Установка синего цвета
         } else {
             buttonLogIn.setEnabled(false); // Деактивация кнопки
+            // Установка стандартного цвета кнопки, если он отличается от синего
+            buttonLogIn.setBackgroundColor(Color.GRAY); // Пример стандартного цвета
         }
     }
 }
+
 
